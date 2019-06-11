@@ -1,9 +1,9 @@
-package lesson7;
+package lesson7.salary;
 
 public class FixedSalary implements Salary {
     private int salary;
 
-    FixedSalary(int salary) {
+    public FixedSalary(int salary) {
         this.salary = salary;
     }
 

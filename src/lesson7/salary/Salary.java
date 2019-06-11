@@ -1,4 +1,4 @@
-package lesson7;
+package lesson7.salary;
 
 public interface Salary {
     /**

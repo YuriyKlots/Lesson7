@@ -1,10 +1,10 @@
-package lesson7;
+package lesson7.salary;
 
 public class HourlySalary implements Salary {
     private int price;
     private int time;
 
-    HourlySalary(int price, int time) {
+    public HourlySalary(int price, int time) {
         this.price = price;
         this.time = time;
     }
